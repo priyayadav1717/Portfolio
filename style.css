@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center-align header content */
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 2rem 0; /* Add space top and bottom */
+}
+
+/* Center-align sections */
+section {
+    padding: 2rem;
+    margin: 0 auto; /* Center-align sections horizontally */
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Adjust as needed */
+    text-align: left; /* Left-align content within sections */
+}
+
+/* Add underline to h2 headings */
+h2 {
+    margin-bottom: 1rem; /* Add space below headings */
+    text-decoration: underline; /* Add underline to h2 headings */
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
